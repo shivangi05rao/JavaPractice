@@ -20,7 +20,7 @@ public class RemovingFromLinkedList {
         linkedList.removeLast();
         System.out.println("LinkedList after removing last element " + linkedList);
 
-        linkedList.remove(new Integer(2));
+        linkedList.remove(2);
         System.out.println("LinkedList after removing 2: " + linkedList);
 
         linkedList.removeLastOccurrence(4);

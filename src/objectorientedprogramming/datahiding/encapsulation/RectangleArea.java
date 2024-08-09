@@ -1,8 +1,8 @@
 package objectorientedprogramming.datahiding.encapsulation;
 
 public class RectangleArea {
-    private int length;
-    private int width;
+    private final int length;
+    private final int width;
 
     RectangleArea(int length, int width){
         this.length = length;
