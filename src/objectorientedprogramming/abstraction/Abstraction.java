@@ -1,4 +1,4 @@
-package objectorientedprogramming;
+package objectorientedprogramming.abstraction;
 abstract class Animal{
     abstract void walk();
 }

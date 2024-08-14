@@ -21,9 +21,11 @@ public class CreatingAndInserting {
 
         //Using the constructor that takes initial capacity and load factor
         Map<String, Integer> map2 = new HashMap<>(16, 0.75f);
+        System.out.println(map2);
 
 
         //Using the constructor that takes another Map as a parameter
         Map<String, Integer> map3 = new HashMap<>(map1);
+        System.out.println(map3);
     }
 }

@@ -1,4 +1,4 @@
-package objectorientedprogramming.datahiding.encapsulation;
+package objectorientedprogramming.dataHidingEncapsulation.encapsulation;
 
 public class GroceryList {
     private int numberOfItems;

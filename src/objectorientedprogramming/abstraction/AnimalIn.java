@@ -1,4 +1,4 @@
-package objectorientedprogramming;
+package objectorientedprogramming.abstraction;
 interface Animals {
     int eyes = 2;
 

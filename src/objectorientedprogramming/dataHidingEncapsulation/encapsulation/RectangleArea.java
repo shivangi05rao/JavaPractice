@@ -1,4 +1,4 @@
-package objectorientedprogramming.datahiding.encapsulation;
+package objectorientedprogramming.dataHidingEncapsulation.encapsulation;
 
 public class RectangleArea {
     private final int length;

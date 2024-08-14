@@ -1,4 +1,4 @@
-package objectorientedprogramming.datahiding.encapsulation;
+package objectorientedprogramming.dataHidingEncapsulation.encapsulation;
 
 public class User {
     private final String userName;
