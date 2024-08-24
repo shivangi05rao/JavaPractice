@@ -3,7 +3,7 @@ package collectionframework.hashmap;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Java8Implementations {
+public class HashMapJava8Implementations {
     public static void main(String[] args) {
         Map<String, Integer> map = new HashMap<>();
         map.put("India", 5);
