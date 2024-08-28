@@ -2,7 +2,7 @@ package recursion;
 
 public class MoveAllxToTheEndOfTheString {
     //TC O(n)
-    //move all x to the end od the string
+    //walk all x to the end od the string
     public static void main(String[] args) {
         String str = "axbcxxd";
         moveAllX(str, 0, 0, " ");
