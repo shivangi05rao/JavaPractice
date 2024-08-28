@@ -1,4 +1,4 @@
-package objectorientedprogramming.methodoverloading;
+package objectorientedprogramming.polymorphism.methodoverloading;
 
 public class Calculator {
     public double product(double x, double y) {
