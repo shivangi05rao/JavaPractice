@@ -15,7 +15,7 @@ abstract class Book {
 }
 
 class MyBook extends Book {
-    private String title;
+    protected String title;
 
     public MyBook(String name, String price, String title) {
         super(name, "J.k. Rowling", price);

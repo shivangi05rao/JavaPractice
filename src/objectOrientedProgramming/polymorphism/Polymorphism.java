@@ -1,4 +1,4 @@
-package objectorientedprogramming;
+package objectOrientedProgramming.polymorphism;
 
 //Poly = Many, morphism =  different ways to do anything
 //Types --> Function overloading(Compile time polymorphism), Function Overriding(run time polymorphism)
