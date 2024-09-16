@@ -21,7 +21,7 @@ public class PersonMain {
         }
 
         List<Person> sortedPerson1 = ComparatorLambdaPersonService.getPersons1(personList);
-        System.out.println("Persons after sorting");
+        System.out.println("Persons after sorting using Lambda");
         for (Person person : sortedPerson1){
             System.out.println("Person name: " + person.getName());
         }
