@@ -1,6 +1,6 @@
 package arrays;
 
-public class Palindrome {
+public class PalindromeArray {
     public static void checkAndPrintPalindrome(int[] arr){
         boolean isPalindrome = true;
         for (int i = 0; i < arr.length/2; i++){

@@ -1,4 +1,4 @@
-package java8.fucntionalInterface.unaryOperator;
+package java8.unaryOperator;
 
 import java.util.function.IntUnaryOperator;
 import java.util.function.UnaryOperator;

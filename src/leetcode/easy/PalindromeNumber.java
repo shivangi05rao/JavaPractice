@@ -8,29 +8,27 @@ public class PalindromeNumber {
     //Explanation: 121 reads as 121 from left to right and from right to left.
     public static boolean isPalindrome(int x){
         //First Approach
-//        int originalNum = x;
-//        int rev = 0;
-//        if (x < 0){
-//            return false;
-//        }
-//        while (x != 0){
-//            rev = rev * 10 + x%10;
-//            x = x/10;
-//        }
-//        if (originalNum == rev){
-//            return true;
-//        }
-//        return false;
+        int num = x;
+        int rev = 0;
+        while (x > 0){
+            rev = rev * 10 + x % 10;
+            x = x / 10;
+        }
+
+        if (num == rev){
+            return true;
+        }
+        return false;
 
         //Second Approach
-        String str = String.valueOf(x);
-        int length = str.length();
-        for (int i = 0; i < length/2; i++){
-            if (str.charAt(i) != str.charAt(i)-length-i){
-                return false;
-            }
-        }
-        return true;
+//        String str = String.valueOf(x);
+//        int length = str.length();
+//        for (int i = 0; i < length/2; i++){
+//            if (str.charAt(i) != str.charAt(length-i -1){
+//                return false;
+//            }
+//        }
+//        return true;
     }
 
     public static void main(String[] args) {

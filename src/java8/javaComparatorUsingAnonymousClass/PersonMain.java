@@ -1,7 +1,5 @@
 package java8.javaComparatorUsingAnonymousClass;
 
-import java8.comparatorusinglambda.ComparatorLambdaPersonService;
-
 import java.util.ArrayList;
 import java.util.List;
 

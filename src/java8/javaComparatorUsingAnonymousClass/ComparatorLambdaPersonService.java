@@ -1,8 +1,5 @@
-package java8.comparatorusinglambda;
+package java8.javaComparatorUsingAnonymousClass;
 
-import java8.javaComparatorUsingAnonymousClass.Person;
-
-import java.util.Collections;
 import java.util.List;
 
 public class ComparatorLambdaPersonService {

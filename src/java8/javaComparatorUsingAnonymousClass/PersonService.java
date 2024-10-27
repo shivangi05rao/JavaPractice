@@ -1,10 +1,9 @@
 package java8.javaComparatorUsingAnonymousClass;
 
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class PersonService {
+public class PersonService{
     public static List<Person> getPersons(List<Person> personList){
         personList.sort(new Comparator<Person>() {
             @Override
