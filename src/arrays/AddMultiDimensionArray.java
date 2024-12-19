@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Scanner;
 
-public class AddMultiDimenArray {
+public class AddMultiDimensionArray {
 
     static void swap(int[][] arr,int i,int start,int end ){
         int temp = arr[i][start];
