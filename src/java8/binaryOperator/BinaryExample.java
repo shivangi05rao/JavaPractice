@@ -1,6 +1,6 @@
 package java8.binaryOperator;
 
-import java8.fucntionalInterface.predicate.Person;
+import java8.functionalInterface.predicate.Person;
 
 import java.util.function.BinaryOperator;
 

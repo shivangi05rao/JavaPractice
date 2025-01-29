@@ -1,6 +1,6 @@
-package java8.fucntionalInterface.supplier;
+package java8.functionalInterface.supplier;
 
-import java8.fucntionalInterface.predicate.Person;
+import java8.functionalInterface.predicate.Person;
 
 import java.util.function.Predicate;
 import java.util.function.Supplier;

@@ -1,4 +1,4 @@
-package java8.fucntionalInterface;
+package java8.functionalInterface;
 
 public class WellWisher {
     public static void wish(Greeting greeting){

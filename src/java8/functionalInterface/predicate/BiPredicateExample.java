@@ -1,4 +1,4 @@
-package java8.fucntionalInterface.predicate;
+package java8.functionalInterface.predicate;
 
 import java.util.function.BiPredicate;
 

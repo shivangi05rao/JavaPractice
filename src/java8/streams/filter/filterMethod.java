@@ -2,6 +2,7 @@ package java8.streams.filter;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class filterMethod {
     public static void main(String[] args) {
@@ -17,6 +18,10 @@ public class filterMethod {
                 .forEach(System.out::println);
 
         System.out.println("Original list is not modified");
-        list.forEach(System.out::println);
+        list.forEach(x -> System.out.print(x + " "));
+
+        List<Integer> newList;
+        newList = list.stream().filter(num -> num >= 15).toList();
+        newList.forEach(x -> System.out.println("Number greater than 15: " + x));
     }
 }
