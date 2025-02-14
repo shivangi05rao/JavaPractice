@@ -1,7 +1,6 @@
 package collectionFramework.arraylist.comparator_vehicle;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class Vehicles {
@@ -23,13 +22,13 @@ public class Vehicles {
         list.add(new Vehicles("BMW", 2015));
 
         System.out.println("Sorting by brand name.");
-        Collections.sort(list, new BrandComparator());
+        list.sort(new BrandComparator());
         for (Vehicles vehicle : list) {
             System.out.println("Vehicle Brand: " + vehicle.brand + ", Vehicle Make: " + vehicle.makeYear);
         }
 
         System.out.println("Sorting by make year.");
-        Collections.sort(list, new MakeYearComparator());
+        list.sort(new MakeYearComparator());
         for (Vehicles vehicle : list) {
             System.out.println("Vehicle Brand: " + vehicle.brand + ", Vehicle Make: " + vehicle.makeYear);
         }
