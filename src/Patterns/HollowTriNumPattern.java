@@ -21,4 +21,8 @@ public class HollowTriNumPattern {
             System.out.println();
         }
     }
+
+    //  1
+    // 2 2
+    //33333
 }

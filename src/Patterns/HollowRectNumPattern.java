@@ -18,4 +18,11 @@ public class HollowRectNumPattern {
             System.out.println();
         }
     }
+//123456789
+//1       9
+//1       9
+//1       9
+//1       9
+//1       9
+//123456789
 }

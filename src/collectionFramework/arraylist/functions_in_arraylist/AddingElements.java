@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class AddingElements {
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList();
+        List<Integer> list = new ArrayList<>();
         list.add(1);
         list.add(2);
         list.add(3);
@@ -23,7 +23,7 @@ public class AddingElements {
         list.add(1, 150);
         System.out.println(list);
 
-        List<Integer> newList = new ArrayList();
+        List<Integer> newList = new ArrayList<>();
         newList.add(150);
         newList.add(160);
 

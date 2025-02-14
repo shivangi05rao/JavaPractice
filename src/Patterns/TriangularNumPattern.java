@@ -13,4 +13,8 @@ public class TriangularNumPattern {
             System.out.println();
         }
     }
+    //1
+    //12
+    //123
+    //1234
 }

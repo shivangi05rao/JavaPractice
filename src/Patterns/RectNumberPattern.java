@@ -14,4 +14,9 @@ public class RectNumberPattern {
             System.out.println();
         }
     }
+    //1234
+    //1234
+    //1234
+    //1234
+    //1234
 }

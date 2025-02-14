@@ -12,4 +12,9 @@ public class RectanglePattern {
             System.out.println();
         }
     }
+
+    //****
+    //****
+    //****
+    //****
 }
