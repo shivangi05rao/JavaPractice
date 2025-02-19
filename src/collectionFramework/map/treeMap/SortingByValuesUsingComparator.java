@@ -1,4 +1,4 @@
-package collectionFramework.treeMap;
+package collectionFramework.map.treeMap;
 
 import java.util.Comparator;
 import java.util.TreeMap;

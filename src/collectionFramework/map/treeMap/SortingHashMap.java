@@ -1,6 +1,5 @@
-package collectionFramework.treeMap;
+package collectionFramework.map.treeMap;
 
-import java.sql.SQLOutput;
 import java.util.*;
 
 import static java.util.Map.Entry.comparingByKey;

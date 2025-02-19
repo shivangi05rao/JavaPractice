@@ -1,4 +1,4 @@
-package collectionFramework.hashmap;
+package collectionFramework.map.hashmap;
 
 
 import java.util.LinkedList;

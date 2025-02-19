@@ -1,4 +1,4 @@
-package collectionFramework.hashmap.question;
+package collectionFramework.map.hashmap.question;
 
 import java.util.HashMap;
 import java.util.Map;

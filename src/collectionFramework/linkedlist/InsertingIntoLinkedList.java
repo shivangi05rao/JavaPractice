@@ -25,8 +25,5 @@ public class InsertingIntoLinkedList {
 
         linkedList.addAll(3,list);
         System.out.println(linkedList);
-
-
-
     }
 }
