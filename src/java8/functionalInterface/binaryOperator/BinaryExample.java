@@ -1,4 +1,4 @@
-package java8.binaryOperator;
+package java8.functionalInterface.binaryOperator;
 
 import java8.functionalInterface.predicate.Person;
 
