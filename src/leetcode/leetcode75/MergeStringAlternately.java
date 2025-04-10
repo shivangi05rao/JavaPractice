@@ -4,20 +4,27 @@ import java.util.Scanner;
 
 public class MergeStringAlternately {
     static String merge(String word1, String word2) {
-        StringBuilder sb = new StringBuilder();
-        int n1 = word1.length();
-        int n2 = word2.length();
-        int i = 0;
-        while (i < n1 || i < n2) {
-            if (i < n1) {
-                sb.append(word1.charAt(i));
-            }
-            if (i < n2) {
-                sb.append(word2.charAt(i));
-            }
-            i++;
-        }
-        return sb.toString();
+       int i = 0, j = 0;
+
+       int w1 = word1.length();
+       int w2 = word2.length();
+
+       StringBuilder sb = new StringBuilder();
+
+       while (i < w1 && j < w2) {
+           sb.append(word1.charAt(i++));
+           sb.append(word2.charAt(j++));
+       }
+
+       while (i <  w1) {
+           sb.append(word1.charAt(i++));
+       }
+
+       while (j  < w2) {
+           sb.append(word2.charAt(j++));
+       }
+
+       return sb.toString();
     }
 
     public static void main(String[] args) {
@@ -31,6 +38,5 @@ public class MergeStringAlternately {
 
         String result = merge(word1, word2);
         System.out.println("The merged string is: " + result);
-
     }
 }
