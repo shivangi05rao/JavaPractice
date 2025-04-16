@@ -1,6 +1,6 @@
 package LogicBuildingGfg.easyprobs;
 
-public class isPower {
+public class IsPower {
     static boolean isPow(int x, int y) {
         if (x == 1) {
             return y == 1;
