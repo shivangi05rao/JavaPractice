@@ -10,6 +10,11 @@ public class GCD {
         return a;
     }//Time Complexity: O(log(min(a, b))), Space Complexity: O(1)
 
+    static int gcdRecursiveSol(int a, int b) {
+        if (a == 0) return b;
+        return gcdRecursiveSol(b % a, a);
+    } // Time Complexity: O(log min(n1,n2)) Space Complexity: O(log min(n1,n2)) due to recursion stack.
+
     static int gcd(int a, int b) {
         int res = Math.min(a, b);
         while (res > 0) {
@@ -53,5 +58,6 @@ public class GCD {
         System.out.println(gcdEuclidean(20, 28));
         System.out.println(gcdEuclideanDivisible(20, 28));
         System.out.println(gcdBestSol(96, 54));
+        System.out.println(gcdRecursiveSol(12, 15));
     }
 }
