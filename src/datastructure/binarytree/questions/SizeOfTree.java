@@ -13,6 +13,7 @@ public class SizeOfTree {
         SizeOfTree sizeOfTree = new SizeOfTree();
         sizeOfTree.size(root, count);
         System.out.println(count.get());
+        System.out.println(countNode(root));
     }
 
     private void size(TreeNode root, AtomicInteger count) {
@@ -23,6 +24,11 @@ public class SizeOfTree {
         count.incrementAndGet();
         size(root.left, count);
         size(root.right, count);
+    }
+
+    private static int countNode(TreeNode root) {
+        if (root == null) return 0;
+        return 1 + countNode(root.left) + countNode(root.right);
     }
 
 }
